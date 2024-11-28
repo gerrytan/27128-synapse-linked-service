@@ -1,0 +1,11 @@
+# Rename this file to variables.auto.tfvars
+# This file is automatically loaded by terraform
+# See: https://developer.hashicorp.com/terraform/language/values/variables#variable-definitions-tfvars-files
+
+prefix = "myprefix"
+
+# Get the location via
+# az account list-locations --query '[].name'
+location = "australiaeast"
+
+sql_administrator_login_password = "*****"
